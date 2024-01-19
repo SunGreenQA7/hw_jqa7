@@ -18,7 +18,7 @@ int size = arrayOfString.length;
         String sect3String = "Completely random text in English. In it, we just need to determine how many times the character 'a' occurs there. And we can use the split method and the length method.";
         String[] capitalArrLetter = sect3String.split("A");
         String[] smallArrLetter = sect3String.split("a");
-        System.out.println("Символ 'A' зустрічається " + capitalArrLetter.length + " рази");
-        System.out.println("Символ 'a' зустрічається " + smallArrLetter.length + " разів");
+        System.out.println("Символ 'A' зустрічається " + (capitalArrLetter.length - 1) + " раз");
+        System.out.println("Символ 'a' зустрічається " + (smallArrLetter.length - 1) + " разів");
     }
 }
